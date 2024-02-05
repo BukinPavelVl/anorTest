@@ -18,7 +18,7 @@ public record CityDtoResponse(String cityName, byte[] logo) {
 		private String cityName;
 		private byte[] logo;
 		
-		private Builder() {
+		public Builder() {
 		}
 		
 		

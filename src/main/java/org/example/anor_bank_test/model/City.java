@@ -60,7 +60,7 @@ public class City {
 		private String countryName;
 		private byte[] logo;
 		
-		private Builder() {
+		public Builder() {
 		}
 		
 		public Builder id(final Long id) {

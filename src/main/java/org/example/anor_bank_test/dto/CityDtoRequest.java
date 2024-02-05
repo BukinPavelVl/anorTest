@@ -24,7 +24,7 @@ public record CityDtoRequest(String cityName, String countryName, String logoUrl
 		private String countryName;
 		private String logoUrl;
 		
-		private Builder() {
+		public Builder() {
 		}
 		
 		
